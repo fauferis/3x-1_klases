@@ -3,7 +3,7 @@ require 'tevyne.php';
 require 'vaikinisel.php';
 
 $start = 1;
-$end = 100;
+$end = 110; // naujas komentaras
 
 $collatzskaic = new Histog($start, $end);
 $intervalats = $collatzskaic->collatz_interval();

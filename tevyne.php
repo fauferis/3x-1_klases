@@ -5,7 +5,7 @@ class trysxsk {
     public $end;
     public $haha = [];
 
-    public function __construct($start, $end) {
+    public function __construct($start, $end) { // naujas komentaras - pradzia / pabaiga...
         $this->start = $start;
         $this->end = $end;
     }
