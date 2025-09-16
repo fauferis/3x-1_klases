@@ -1,6 +1,6 @@
 <?php
 require 'tevyne.php';
-require 'vaikinisel.php';
+require 'vaikine.php';
 
 $start = 1;
 $end = 110; // naujas komentaras
@@ -23,6 +23,7 @@ foreach ($intervalats as $index => $result) {
 }
 
 $collatzskaic->histo_sk();
+
 
 
 ?>
